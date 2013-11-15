@@ -1,0 +1,12 @@
+The Debian Package ca-certificates-icub-org
+----------------------------
+
+This package includes local CA certificates to be installed in
+/usr/local/share/ca-certificates. The CA certificates installed by this
+package will be implicitly trusted.
+
+----------------------------
+
+The original example used to create this package can be found on
+debian system in the ca-certificates package at
+/usr/share/doc/ca-certificates/examples/ca-certificates-local/

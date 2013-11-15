@@ -1,0 +1,15 @@
+Source: ca-certificates-icub-org
+Section: misc
+Priority: extra
+Maintainer: Daniele E. Domenichelli <daniele.domenichelli@iit.it>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.4
+
+Package: ca-certificates-icub-org
+Architecture: all
+Depends: ca-certificates (>= 20130119), ${misc:Depends}
+Description: icub.org CA certificates
+ This package includes icub.org CA certificates to be installed in
+ /usr/local/share/ca-certificates. The CA certificates installed by this
+ package will be implicitly trusted.
+
