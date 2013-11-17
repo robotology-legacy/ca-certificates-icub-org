@@ -2,7 +2,7 @@
 # Makefile
 #
 
-ICUBORGCERTSDIR = /usr/local/share/ca-certificates/icub.org
+ICUBORGCERTSDIR = /usr/share/ca-certificates/icub.org
 
 all:
 

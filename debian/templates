@@ -1,0 +1,8 @@
+Template: ca-certificates-icub-org/title
+Type: title
+_Description: ca-certificates-icub-org configuration
+
+Template: ca-certificates-icub-org/trust_icub_org
+Type: boolean
+_Description: Trust certificates from icub.org?
+ This package will install icub.org certificates.

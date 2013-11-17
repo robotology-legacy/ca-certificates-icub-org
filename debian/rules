@@ -9,3 +9,13 @@
 # override_dh_usrlocal to do nothing
 override_dh_usrlocal:
 
+clean:
+	dh_testdir
+	dh_testroot
+	rm -f build-stamp configure-stamp
+	# Add here commands to clean up after the build process.
+	[ ! -f Makefile ] || $(MAKE) clean
+
+	debconf-updatepo
+
+	dh_clean
